@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/mai"
+    android:padding="@dimen/fourteen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fg1"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fourty"
+            android:layout_marginTop="@dimen/twenty"
+            android:layout_marginRight="@dimen/four"
+            android:layout_marginBottom="@dimen/fivef"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nn"
+                android:textStyle="bold"></TextView>
+
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tth"
+                android:layout_marginBottom="@dimen/twe"
+                android:background="@color/whi"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/nnname"
+                android:inputType="textPersonName"
+                android:padding="@dimen/ten" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/llnam"
+                android:textStyle="bold"
+
+                ></TextView>
+
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tth"
+                android:layout_marginBottom="@dimen/twe"
+                android:background="@color/wk"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/lllname"
+                android:inputType="textPersonName"
+                android:padding="@dimen/ten" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gen"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/ten"></TextView>
+
+
+            <RadioGroup
+
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/male"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/female"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other"
+
+                    ></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dobb"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/ten"></TextView>
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/three"
+                android:background="@color/ddd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mmjj"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/ten"
+                android:layout_marginTop="@dimen/ten"/>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ratet"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/statusPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oo"
+                android:textSize="@dimen/tww"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fv"/>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/tw"/>
+
+
+            <Button
+                android:id="@+id/subBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/ten"
+                android:text="@string/submit" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

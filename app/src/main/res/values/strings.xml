@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FragAssign005</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sum">Fragment 2 (Summary)</string>
+    <string name="wait">wait for the data..........</string>
+    <string name="lname">Your Last Name is :</string>
+    <string name="wait1">wait for the data..........</string>
+    <string name="gen1">Your Gender is :</string>
+    <string name="wait2">wait for the data..........</string>
+    <string name="dob">Based on the year selected you are :</string>
+    <string name="wait3">wait for the data..........</string>
+    <string name="major">Your Major is :</string>
+    <string name="wait4">wait for the data..........</string>
+    <string name="th">Thank you for rating me</string>
+    <string name="wait5">wait for the data..........</string>
+    <string name="fg1">Fragment 1</string>
+    <string name="nn">Please enter Your Name</string>
+    <string name="nnname">Name</string>
+    <string name="llnam">Please enter Your Last Name</string>
+    <string name="lllname">Last Name</string>
+    <string name="gen">Please Select your gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="dobb">Please Select your Date of Birth</string>
+    <string name="mmjj">Please Choose your major</string>
+    <string name="ratet">Rate my app in percentage please</string>
+    <string name="oo">0%</string>
+    <string name="submit">Submit</string>
+    <string name="hi">Hi</string>
+
+
+</resources>

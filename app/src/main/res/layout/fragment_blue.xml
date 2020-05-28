@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/color1"
+    android:padding="@dimen/ter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sum"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/fff"></TextView>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hi"
+        android:textSize="@dimen/sis"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fNameRec"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/th"
+        android:text="@string/wait"
+        android:textSize="@dimen/ww" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lname"
+        android:textSize="@dimen/ds"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/LnameRec"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/da"
+        android:text="@string/wait1"
+        android:textSize="@dimen/ee" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gen1"
+        android:textSize="@dimen/qq"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/genRec"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/uu"
+        android:text="@string/wait2"
+        android:textSize="@dimen/ui" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dob"
+        android:textSize="@dimen/zz"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/ageRec"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/pp"
+        android:text="@string/wait3"
+        android:textSize="@dimen/po" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/major"
+        android:textSize="@dimen/six"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/majorRec"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/kilo"
+        android:text="@string/wait4"
+        android:textSize="@dimen/sag" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/th"
+        android:textSize="@dimen/sixx"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/rateRec"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/jj"
+        android:text="@string/wait5"
+        android:textSize="@dimen/sixxx" />
+</LinearLayout>
